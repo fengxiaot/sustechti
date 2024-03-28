@@ -1,9 +1,11 @@
 ---
 ---
 
-# fengxiaot's Website
+# SUSTech Trapped Ion Lab Website
 
-An engaging 1-3 sentence description of your lab.
+我们致力于发展以囚禁离子系统为物理载体的量子计算平台。
+
+The Trapped Ion Quantum Computing Laboratory of Shenzhen Institute of Quantum Science and Engineering is committed to developing quantum computing platforms using trapped ion systems as physical carriers.
 
 {% include section.html %}
 
@@ -11,7 +13,7 @@ An engaging 1-3 sentence description of your lab.
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+快来看看我们的研究！
 
 {%
   include button.html
@@ -26,7 +28,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/our_research.jpg"
   link="research"
   title="Our Research"
   text=text
@@ -34,7 +36,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+目前实验室有两台组装好的离子阱。第一台离子阱已经稳定运行，第二台离子阱正在搭建。预计将在第二台离子阱上实现稳定的独立寻址。
 
 {%
   include button.html
@@ -49,7 +51,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/our_project.jpg"
   link="projects"
   title="Our Projects"
   flip=true
@@ -59,7 +61,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+目前我们共有4名全职研究人员，2位在读博士生，与本科生、硕士生若干。
 
 {%
   include button.html
@@ -74,7 +76,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/our_team.jpg"
   link="team"
   title="Our Team"
   text=text
