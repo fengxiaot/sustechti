@@ -7,21 +7,19 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+本课题组欢迎硕士研究生、博士研究生以及博士后等专职研究人员的加入！
 
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
+  text="luy7@sustech.edu.cn"
+  link="luy7@sustech.edu.cn"
 %}
 {%
   include button.html
   type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
+  text="(CN) 18515061336"
+  link="+86-18515061336"
 %}
 {%
   include button.html
