@@ -1,5 +1,4 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+- title: High-Fidelity Detection on 171Yb+ Qubit via 2D3/2 Shelving
   group: featured
   image: images/photo.jpg
   link: https://github.com/
@@ -7,26 +6,6 @@
   repo: greenelab/lab-website-template
   tags:
     - resource
-
-- title: Cool Package
-  subtitle: a subtitle
-  group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-    - publication
 
 - title: Cool Web App
   subtitle: a subtitle
