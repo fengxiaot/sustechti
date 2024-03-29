@@ -16,10 +16,50 @@
   publisher: npj Quantum Information
   date: '2023-12-07'
   link: https://doi.org/gtpgqx
+  image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41534-023-00784-8/MediaObjects/41534_2023_784_Fig1_HTML.png
+  tags:
+  - quantum simulation
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41586-019-1428-4
+  title: Global entangling gates on arbitrary ion qubits
+  authors:
+  - Yao Lu
+  - Shuaining Zhang
+  - Kuan Zhang
+  - Wentao Chen
+  - Yangchao Shen
+  - Jialiang Zhang
+  - Jing-Ning Zhang
+  - Kihwan Kim
+  publisher: Nature
+  date: '2019-07-24'
+  link: https://doi.org/gf6b5b
   image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-019-1428-4/MediaObjects/41586_2019_1428_Fig4_HTML.png
   tags:
-  - quantum gate
+  - quantum control
   - quantum computing
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1088/1367-2630/aa9cd6
+  title: Verification of the quantum nonequilibrium work relation in the presence
+    of decoherence
+  authors:
+  - Andrew Smith
+  - Yao Lu
+  - Shuoming An
+  - Xiang Zhang
+  - Jing-Ning Zhang
+  - Zongping Gong
+  - H T Quan
+  - Christopher Jarzynski
+  - Kihwan Kim
+  publisher: New Journal of Physics
+  date: '2018-01-05'
+  link: https://doi.org/gfb6ch
+  image: https://content.cld.iop.org/journals/1367-2630/20/1/013008/revision2/njpaa9cd6f6_lr.jpg
+  tags:
+  - quantum simulation
   plugin: sources.py
   file: sources.yaml
 - id: arXiv:2402.18868
@@ -33,7 +73,64 @@
   link: https://arxiv.org/abs/2402.18868
   image: https://arxiv.org/html/2402.18868v1/x1.png
   tags:
+  - quantum control
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41467-020-14376-z
+  title: Error-mitigated quantum gates exceeding physical fidelities in a trapped-ion
+    system
+  authors:
+  - Shuaining Zhang
+  - Yao Lu
+  - Kuan Zhang
+  - Wentao Chen
+  - Ying Li
+  - Jing-Ning Zhang
+  - Kihwan Kim
+  publisher: Nature Communications
+  date: '2020-01-30'
+  link: https://doi.org/gjs9d9
+  image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-020-14376-z/MediaObjects/41467_2020_14376_Fig1_HTML.png
+  tags:
   - quantum computing
-  - shelving
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1039/C7SC04602B
+  title: Quantum optical emulation of molecular vibronic spectroscopy using a trapped-ion
+    device
+  authors:
+  - Yangchao Shen
+  - Yao Lu
+  - Kuan Zhang
+  - Junhua Zhang
+  - Shuaining Zhang
+  - Joonsuk Huh
+  - Kihwan Kim
+  publisher: Chemical Science
+  date: '2018-01-01'
+  link: https://doi.org/gf68wv
+  image: https://pubs.rsc.org/image/article/2018/sc/c7sc04602b/c7sc04602b-f1.gif
+  tags:
+  - quantum simulation
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1073/pnas.1617621114
+  title: Revealing nonclassicality beyond Gaussian states via a single marginal distribution
+  authors:
+  - Jiyong Park
+  - Yao Lu
+  - Jaehak Lee
+  - Yangchao Shen
+  - Kuan Zhang
+  - Shuaining Zhang
+  - Muhammad Suhail Zubairy
+  - Kihwan Kim
+  - Hyunchul Nha
+  publisher: Proceedings of the National Academy of Sciences
+  date: '2017-01-11'
+  link: https://doi.org/f9px9q
+  image: https://www.pnas.org/cms/10.1073/pnas.1617621114/asset/b26fa894-228d-4b6f-894c-1791dffdcceb/assets/graphic/pnas.1617621114fig01.jpeg
+  tags:
+  - quantum control
   plugin: sources.py
   file: sources.yaml
