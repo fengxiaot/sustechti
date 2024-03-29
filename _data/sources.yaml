@@ -1,11 +1,42 @@
+# Error-mitigated quantum simulation of interacting fermions with trapped ions
 - id: doi:10.1038/s41534-023-00784-8
+  image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41534-023-00784-8/MediaObjects/41534_2023_784_Fig1_HTML.png
+  tags:
+    - quantum simulation
+
+# Global entangling gates on arbitrary ion qubits
+- id: doi:10.1038/s41586-019-1428-4
   image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-019-1428-4/MediaObjects/41586_2019_1428_Fig4_HTML.png
   tags:
-    - quantum gate
+    - quantum control
     - quantum computing
 
+# Verification of the quantum nonequilibrium work relation in the presence of decoherence
+- id: doi:10.1088/1367-2630/aa9cd6
+  image: https://content.cld.iop.org/journals/1367-2630/20/1/013008/revision2/njpaa9cd6f6_lr.jpg
+  tags:
+    - quantum simulation
+
+# High-Fidelity Detection on 171Yb+ Qubit via 2D3/2 Shelving
 - id: arXiv:2402.18868
   image: https://arxiv.org/html/2402.18868v1/x1.png
   tags:
+    - quantum control
+
+# Error-mitigated quantum gates exceeding physical fidelities in a trapped-ion system
+- id: doi:10.1038/s41467-020-14376-z
+  image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-020-14376-z/MediaObjects/41467_2020_14376_Fig1_HTML.png
+  tags:
     - quantum computing
-    - shelving
+
+# Quantum optical emulation of molecular vibronic spectroscopy using a trapped-ion device
+- id: doi:10.1039/C7SC04602B
+  image: https://pubs.rsc.org/image/article/2018/sc/c7sc04602b/c7sc04602b-f1.gif
+  tags:
+    - quantum simulation
+
+# Revealing nonclassicality beyond Gaussian states via a single marginal distribution
+- id: doi:10.1073/pnas.1617621114
+  image: https://www.pnas.org/cms/10.1073/pnas.1617621114/asset/b26fa894-228d-4b6f-894c-1791dffdcceb/assets/graphic/pnas.1617621114fig01.jpeg
+  tags:
+    - quantum control

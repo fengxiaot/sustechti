@@ -1,9 +1,10 @@
 ---
 name: Xiaotian Feng (丰啸天)
-image: images/photo.jpg
+image: images/yao-lu.jpg
 role: undergrad
 links:
   email: fxtphys@gmail.com
+  home-page: https://blog.windsky.tech
 ---
 
-西安交通大学大四本科生。
+西安交通大学本科四年级

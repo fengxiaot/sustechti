@@ -1,10 +1,9 @@
 ---
-name: Qifan Wu
-image: images/photo.jpg
+name: Qifan Wu (吴启凡)
+image: images/yao-lu.jpg
 role: phd
-group: alum
 links:
-  github: john-doe
+  home-page: https://www.57f.org/
 ---
 
-博士一年级
+深圳国际量子研究院博士一年级
