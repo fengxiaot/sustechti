@@ -2,6 +2,7 @@
 name: Qifan Wu (吴启凡)
 image: images/yao-lu.jpg
 role: phd
+alumni: false
 links:
   home-page: https://www.57f.org/
 ---
