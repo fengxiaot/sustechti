@@ -1,7 +1,7 @@
 ---
 title: 博客写作说明
 author: xiaotian-feng
-tags: example
+tags: others
 ---
 
 <!-- excerpt start -->
@@ -61,17 +61,4 @@ $$
 
 ### Capture
 
-Capture相当于创建一个变量，其它页面元素的`content`的属性可以调用这个变量。例如本文开头的提示框
-
-```
-{% capture hint %}
-本篇文章的所有内容，以及更详细、更高级的用法都可以在[官方文档](https://greene-lab.gitbook.io/lab-website-template-docs)上找到，如果需要可以仔细阅读。
-{% endcapture %}
-
-{%
-  include alert.html
-  type="tip"
-  content=hint
-%}
-```
-
+Capture相当于创建一个变量，其它页面元素的`content`的属性可以调用这个变量。

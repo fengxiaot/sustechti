@@ -2,7 +2,8 @@
 title: 分束器的量子理论
 image: assets/img/2024-04-02-beam-splitter.jpg
 author: xiaotian-feng
-tags: quantum optics
+tags:
+  - quantum optics
 ---
 
 <!-- excerpt start -->
