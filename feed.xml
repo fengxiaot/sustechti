@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/sustechti/feed.xml" rel="self" type="application/atom+xml" /><link href="/sustechti/" rel="alternate" type="text/html" /><updated>2024-04-02T04:39:04+00:00</updated><id>/sustechti/feed.xml</id><title type="html">SUSTechTI</title><subtitle>Trapped Ion Quantum Computation.</subtitle><entry><title type="html">分束器的量子理论</title><link href="/sustechti/2024/04/02/beam-splitter.html" rel="alternate" type="text/html" title="分束器的量子理论" /><published>2024-04-02T00:00:00+00:00</published><updated>2024-04-02T04:37:22+00:00</updated><id>/sustechti/2024/04/02/beam-splitter</id><content type="html" xml:base="/sustechti/2024/04/02/beam-splitter.html"><![CDATA[<!-- excerpt start -->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/sustechti/feed.xml" rel="self" type="application/atom+xml" /><link href="/sustechti/" rel="alternate" type="text/html" /><updated>2024-04-02T11:00:56+00:00</updated><id>/sustechti/feed.xml</id><title type="html">SUSTechTI</title><subtitle>Trapped Ion Quantum Computation.</subtitle><entry><title type="html">分束器的量子理论</title><link href="/sustechti/2024/04/02/beam-splitter.html" rel="alternate" type="text/html" title="分束器的量子理论" /><published>2024-04-02T00:00:00+00:00</published><updated>2024-04-02T10:59:38+00:00</updated><id>/sustechti/2024/04/02/beam-splitter</id><content type="html" xml:base="/sustechti/2024/04/02/beam-splitter.html"><![CDATA[<!-- excerpt start -->
 <p>A beam splitter is an optical device that splits a beam of light into a transmitted and a reflected beam. It is a crucial part of many optical experimental and measurement systems, such as interferometers, also finding widespread application in fibre optic telecommunications. 
 <!-- excerpt end --></p>
 
@@ -224,7 +224,7 @@ $$</p>
       <p>Campos R A, Saleh B E A, Teich M C.  Quantum-mechanical lossless beam splitter: SU (2) symmetry and photon  statistics[J]. Physical Review A, 1989, 40(3): 1371. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>xiaotian-feng</name></author><category term="quantum" /><category term="optics" /><summary type="html"><![CDATA[A beam splitter is an optical device that splits a beam of light into a transmitted and a reflected beam. It is a crucial part of many optical experimental and measurement systems, such as interferometers, also finding widespread application in fibre optic telecommunications.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/sustechti/assets/img/2024-04-02-beam-splitter.jpg" /><media:content medium="image" url="/sustechti/assets/img/2024-04-02-beam-splitter.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">博客写作说明</title><link href="/sustechti/2024/04/01/how-to-write-a-post.html" rel="alternate" type="text/html" title="博客写作说明" /><published>2024-04-01T00:00:00+00:00</published><updated>2024-04-02T04:37:22+00:00</updated><id>/sustechti/2024/04/01/how-to-write-a-post</id><content type="html" xml:base="/sustechti/2024/04/01/how-to-write-a-post.html"><![CDATA[<!-- excerpt start -->
+</div>]]></content><author><name>xiaotian-feng</name></author><category term="quantum optics" /><summary type="html"><![CDATA[A beam splitter is an optical device that splits a beam of light into a transmitted and a reflected beam. It is a crucial part of many optical experimental and measurement systems, such as interferometers, also finding widespread application in fibre optic telecommunications.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/sustechti/assets/img/2024-04-02-beam-splitter.jpg" /><media:content medium="image" url="/sustechti/assets/img/2024-04-02-beam-splitter.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">博客写作说明</title><link href="/sustechti/2024/04/01/how-to-write-a-post.html" rel="alternate" type="text/html" title="博客写作说明" /><published>2024-04-01T00:00:00+00:00</published><updated>2024-04-02T10:59:38+00:00</updated><id>/sustechti/2024/04/01/how-to-write-a-post</id><content type="html" xml:base="/sustechti/2024/04/01/how-to-write-a-post.html"><![CDATA[<!-- excerpt start -->
 <p>本篇文章介绍如何写作文章并发布在实验室网站上。
 <!-- excerpt end --></p>
 
@@ -278,19 +278,16 @@ $$</p>
 
 <h3 id="capture">Capture</h3>
 
-<p>Capture相当于创建一个变量，其它页面元素的<code class="language-plaintext highlighter-rouge">content</code>的属性可以调用这个变量。例如本文开头的提示框</p>
+<p>Capture相当于创建一个变量，其它页面元素的<code class="language-plaintext highlighter-rouge">content</code>的属性可以调用这个变量。</p>]]></content><author><name>xiaotian-feng</name></author><category term="others" /><summary type="html"><![CDATA[本篇文章介绍如何写作文章并发布在实验室网站上。]]></summary></entry><entry><title type="html">实验室网站使用说明</title><link href="/sustechti/2024/03/31/lab-website-basic.html" rel="alternate" type="text/html" title="实验室网站使用说明" /><published>2024-03-31T00:00:00+00:00</published><updated>2024-04-02T10:59:38+00:00</updated><id>/sustechti/2024/03/31/lab-website-basic</id><content type="html" xml:base="/sustechti/2024/03/31/lab-website-basic.html"><![CDATA[<!-- excerpt start -->
+<p>本篇文章介绍实验室网站的结构，以及如何更新论文、项目和人员。
+<!-- excerpt end --></p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<h2 id="实验室网站的结构">实验室网站的结构</h2>
 
+<h2 id="更新论文">更新论文</h2>
 
-&lt;div class="alert" style="--color: #d946ef"&gt;
-  
-  &lt;i class="icon fa-solid fa-lightbulb"&gt;&lt;/i&gt;
-  &lt;div class="alert-content"&gt;
-    
-&lt;p&gt;本篇文章的所有内容，以及更详细、更高级的用法都可以在&lt;a href="https://greene-lab.gitbook.io/lab-website-template-docs"&gt;官方文档&lt;/a&gt;上找到，如果需要可以仔细阅读。&lt;/p&gt;
+<h2 id="更新项目">更新项目</h2>
 
-  &lt;/div&gt;
-&lt;/div&gt;
+<h2 id="更新人员">更新人员</h2>
 
-</code></pre></div></div>]]></content><author><name>xiaotian-feng</name></author><category term="example" /><summary type="html"><![CDATA[本篇文章介绍如何写作文章并发布在实验室网站上。]]></summary></entry></feed>
+<h2 id="推送到github">推送到Github</h2>]]></content><author><name>xiaotian-feng</name></author><category term="others" /><summary type="html"><![CDATA[本篇文章介绍实验室网站的结构，以及如何更新论文、项目和人员。]]></summary></entry></feed>
