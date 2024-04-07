@@ -62,10 +62,10 @@
 
   <meta name="author" content="xiaotian-feng">
   <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="2024-04-07T16:41:11+00:00">
+  <meta property="og:updated_time" content="2024-04-07T16:56:03+00:00">
   <meta property="article:published_time" content="2024-04-01T00:00:00+00:00">
-  <meta property="article:modified_time" content="2024-04-07T16:41:11+00:00">
-  <meta name="revised" content="2024-04-07T16:41:11+00:00">
+  <meta property="article:modified_time" content="2024-04-07T16:56:03+00:00">
+  <meta name="revised" content="2024-04-07T16:56:03+00:00">
 
 
 <script type="application/ld+json">
@@ -75,7 +75,7 @@
       "@type": "BlogPosting",
       "author": { "@type": "Person", "name": "博客写作说明" },
       "datePublished": "2024-04-01T00:00:00+00:00",
-      "dateModified": "2024-04-07T16:41:11+00:00",
+      "dateModified": "2024-04-07T16:56:03+00:00",
     
     "name": "博客写作说明",
     "description": "Trapped Ion Quantum Computation.",
@@ -583,15 +583,32 @@
 
 <p>数学公式的显示由MathJax引擎驱动，遵循 $\LaTeX$ 语法。书写行内公式可以使用<code class="language-plaintext highlighter-rouge">$...$</code>或<code class="language-plaintext highlighter-rouge">\(...\)</code>，例如${}^{171}\mathrm{Yb}^+$与<code class="language-plaintext highlighter-rouge">${}^{171}\mathrm{Yb}^+$</code>。</p>
 
-<p>书写行间公式可以使用<code class="language-plaintext highlighter-rouge">$$...$$</code>，例如</p>
+<p>书写行间公式可以使用<code class="language-plaintext highlighter-rouge">$$...$$</code>，例如下面的Markdown代码将会给出</p>
 
-<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">$$</span><span class="nb">
-E </span><span class="o">=</span><span class="nb"> mc</span><span class="p">^</span><span class="m">2</span><span class="nb">
+<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The Cauchy integral theorem is
+
+<span class="p">$$</span><span class="nb">
+f</span><span class="o">(</span><span class="nb">z</span><span class="p">_</span><span class="m">0</span><span class="o">)</span><span class="nb"> </span><span class="o">=</span><span class="nb"> </span><span class="nv">\frac</span><span class="p">{</span><span class="m">1</span><span class="p">}{</span><span class="m">2</span><span class="nv">\pi</span><span class="nb"> </span><span class="nv">\mathrm</span><span class="p">{</span><span class="nb">i</span><span class="p">}}</span><span class="nb"> </span><span class="nv">\oint</span><span class="p">_</span><span class="nb">L </span><span class="nv">\frac</span><span class="p">{</span><span class="nb">f</span><span class="o">(</span><span class="nb">z</span><span class="o">)</span><span class="p">}{</span><span class="nb">z</span><span class="o">-</span><span class="nb">z</span><span class="p">_</span><span class="m">0</span><span class="p">}</span><span class="nb"> </span><span class="nv">\,</span><span class="nb"> </span><span class="nv">\mathrm</span><span class="p">{</span><span class="nb">d</span><span class="p">}</span><span class="nb">z
 </span><span class="p">$$</span>
+
+What a beautiful formula!
 </code></pre></div></div>
 
-<p>给出
-\(E=mc^2\)</p>
+<p>The Cauchy integral theorem is</p>
+
+\[f(z_0) = \frac{1}{2\pi \mathrm{i}} \oint_L \frac{f(z)}{z-z_0} \, \mathrm{d}z\]
+
+<p>What a beautiful formula!</p>
+
+<div class="alert" style="--color: #F59E0B">
+  
+  <i class="icon fa-solid fa-circle-exclamation"></i>
+  <div class="alert-content">
+    
+<p>行间公式的<code class="language-plaintext highlighter-rouge">$$...$$</code>和前后文本之间有一个空行，这个空行不能省略，否则还是会渲染成行内公式！</p>
+
+  </div>
+</div>
 
 <h3 id="capture">Capture</h3>
 
