@@ -15,6 +15,7 @@ A beam splitter is an optical device that splits a beam of light into a transmit
 ### Transfer matrix
 
 The recipe for quantization is that 'replace the classical amplitudes by annihilation operators'. Namely,
+
 $$
 \begin{bmatrix}
 b_1 \\
@@ -30,18 +31,24 @@ a_1 \\
 a_2
 \end{bmatrix}
 $$
+
 which means
+
 $$
 \begin{gathered}
 b_1 = t a_1 + r^\prime a_2 \qquad b_2 = r a_1 + t^\prime a_2 \\
 b_1^\dagger =t^* a_1^\dagger+r^{\prime*} a_2^\dagger \qquad b_2^\dagger = r^* a_1^\dagger + t^{\prime *} a_2^\dagger
 \end{gathered}
 $$
+
 If the outgoing modes are still useful for the quantum theory, they have to satisfy the commutation relations
+
 $$
 [b_i,b_j^\dagger] = \delta_{ij}
 $$
+
 which is identical to
+
 $$
 \begin{cases}
 t r^* + r^\prime t^{\prime*} = 0 \\
@@ -49,21 +56,27 @@ t r^* + r^\prime t^{\prime*} = 0 \\
 |r|^2+|t^\prime|^2=1
 \end{cases}
 $$
+
 which is also identical to
+
 $$
 U = \begin{bmatrix}
 t & r^\prime\\
 r & t^\prime
 \end{bmatrix} \text{ is unitary.}
 $$
+
 Since $U\in\mathrm{SU}(2)$, the transfer matrix could be written as $U = \exp\left[-\frac{\mathrm{i}}{2} \theta\,(\boldsymbol{n} \cdot \boldsymbol{\sigma})\right]$. The most common form of $U$, however, is
+
 $$
 U= \begin{bmatrix}
 \cos\theta & \sin\theta \mathrm{e}^\mathrm{i \phi} \\
 -\sin\theta \mathrm{e}^\mathrm{-i \phi} & \cos\theta
 \end{bmatrix}
 $$
+
 Inversely, we have
+
 $$
 \begin{bmatrix}
 b_1 \\
@@ -87,7 +100,9 @@ b_1 \\
 b_2
 \end{bmatrix}
 $$
+
 and
+
 $$
 \begin{gathered}
 a_1^\dagger = b_1^\dagger \cos\theta -b_2^\dagger \sin\theta \mathrm{e}^{-\mathrm{i}\phi} \\
@@ -102,13 +117,17 @@ $$
 For fibre optics (i.e. waveguide beam splitter), we can pair two input ports with two output ports.[^1] This correspondence does not imply that a photon on an input port is identical to a photon on an output port (e.g. $\ket{10}_\text{in} \neq \ket{10}_\text{out}$). Rather, the photon number states in the upper and lower fibers, no matter they belong to input or output, can be considered to be in the same state space, and the beam splitter actually acts as a transformation in this state space. 
 
 For example, a 50:50 beam splitter acting on a single-photon incident state should be strictly written as
+
 $$
 BS(\pi/4) \,(\ket{10}_\text{in} \otimes \ket{00}_\text{out}) = \ket{00}_\text{in} \otimes\frac{1}{\sqrt{2}}(\ket{10}_\text{out}+\ket{01}_\text{out})
 $$
+
 However, if we focus only on the photon number, we can write
+
 $$
 BS(\pi/4) \ket{10}= \frac{1}{\sqrt{2}}(\ket{10}-\ket{01})
 $$
+
 where the first number in the ket represents the photon number in the upper fibre, and the second number represents the photon number in the lower fibre. And, we recognize by default, that the state before BS operators acting on them represents the photon distribution in the input fibers while the state transformed represents the photon distribution in the output fibers.
 
 This can also be glimpsed in the creation and annihilation operators. The linear relationship between $b,b^\dagger$ and $a,a^\dagger$ suggests that they can be considered to act on the same state space.
@@ -116,12 +135,14 @@ This can also be glimpsed in the creation and annihilation operators. The linear
 > Example: Hong–Ou–Mandel interference
 >
 > Answer: Let us consider two single-photon states incident on the same beam splitter $\ket{11}_\text{in}$.
+>
 > $$
 > \begin{aligned}
 > \ket{11}_\text{in} &= a_1^\dagger a_2^\dagger \ket{00}_\text{in}= a_1^\dagger a_2^\dagger \ket{00}_\text{out} = (b_1^\dagger\cos\theta - b_2^\dagger\sin\theta)(b_1^\dagger\sin\theta + b_2^\dagger\cos\theta) \ket{00}_\text{out} \\
 > &= \sqrt{2}\sin\theta\cos\theta(\ket{20}_\text{out}-\ket{02}_\text{out}) +\cos(2\theta)\ket{11}_\text{out}
 > \end{aligned}
 > $$
+>
 > When the beam splitter is 50:50, the output is $\frac{1}{\sqrt{2}} (\ket{20}-\ket{02})$, which means the photons are either in the upper or in the lower fibre!
 
 Overall, beam splitter operator $BS$ has the following properties:
@@ -134,6 +155,7 @@ Overall, beam splitter operator $BS$ has the following properties:
 #### Schwinger representation
 
 The angular momentum operator can be expressed by two independent harmonic oscillators.
+
 $$
 L_x =\frac{1}{2}(a_1^\dagger a_2+a_1 a_2^\dagger) \qquad L_y =\frac{1}{2\mathrm{i}}(a_1^\dagger a_2 - a_1 a_2^\dagger) \qquad L_z=\frac{1}{2}(a_1^\dagger a_1 -a_2^\dagger a_2)
 $$
@@ -147,6 +169,7 @@ L^2= \hat{l}(\hat{l}+1) \qquad \hat{l} =\frac{1}{2}(\hat{n}_1 + \hat{n}_2)=\frac
 $$
 
 It is easy to check such angular momentum operators satisfying the commutation rules $[L_i,L_j] = \mathrm{i}\varepsilon_{ijk} L_k$. Therefore, the most general form of $BS$ could be written as
+
 $$
 BS =\exp\left[\mathrm{i} (\alpha L_x + \beta L_y + \gamma L_z)\right]
 $$
@@ -154,6 +177,7 @@ $$
 #### Relationship
 
 The relationship between the beam splitter operators $BS$ acting on the states and the transfer matrix $U$ acting on the creation and annihilation operators is[^2]
+
 $$
 U= \begin{bmatrix}
 \cos\theta & \sin\theta \mathrm{e}^\mathrm{i \phi} \\
@@ -163,6 +187,7 @@ U= \begin{bmatrix}
 $$
 
 with
+
 $$
 \begin{gathered}
 BS^\dagger a_1 BS= a_1 \cos\theta +a_2 \mathrm{e}^{\mathrm{i}\phi}\sin\theta =b_1\\

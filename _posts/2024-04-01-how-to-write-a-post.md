@@ -46,18 +46,35 @@ asset/img/yyyy-mm-dd-picname.png
 
 数学公式的显示由MathJax引擎驱动，遵循 $\LaTeX$ 语法。书写行内公式可以使用`$...$`或`\(...\)`，例如${}^{171}\mathrm{Yb}^+$与`${}^{171}\mathrm{Yb}^+$`。
 
-书写行间公式可以使用`$$...$$`，例如
+书写行间公式可以使用`$$...$$`，例如下面的Markdown代码将会给出
 
 ```latex
+The Cauchy integral theorem is
+
 $$
-E = mc^2
+f(z_0) = \frac{1}{2\pi \mathrm{i}} \oint_L \frac{f(z)}{z-z_0} \, \mathrm{d}z
 $$
+
+What a beautiful formula!
 ```
 
-给出
+The Cauchy integral theorem is
+
 $$
-E=mc^2
+f(z_0) = \frac{1}{2\pi \mathrm{i}} \oint_L \frac{f(z)}{z-z_0} \, \mathrm{d}z
 $$
+
+What a beautiful formula!
+
+{% capture displaymath %}
+行间公式的`$$...$$`和前后文本之间有一个空行，这个空行不能省略，否则还是会渲染成行内公式！
+{% endcapture %}
+
+{%
+  include alert.html
+  type="warning"
+  content=displaymath
+%}
 
 ### Capture
 
