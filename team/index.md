@@ -8,6 +8,7 @@ nav:
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
 本课题组欢迎硕士研究生、博士研究生以及博士后等专职研究人员的加入！
+
 If you are interested in working with us as a post-doc, graduate student or for an undergraduate project, please get in touch.
 
 {% include section.html %}

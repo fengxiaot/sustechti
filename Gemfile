@@ -8,7 +8,7 @@ gem "html-proofer", "~> 5.0"
 
 # plugins
 group :jekyll_plugins do
-  gem "jekyll-spaceship"
+  gem 'jekyll-spaceship', '~> 0.9.9'
   gem "jekyll-sitemap"
   gem "jekyll-redirect-from"
   gem "jekyll-feed"
